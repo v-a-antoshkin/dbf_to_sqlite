@@ -22,7 +22,7 @@ Before you begin, ensure you have the following requirements installed on your s
    Start by cloning this repository to your local machine using the following command:
 
     ```bash
-    git clone https://example.com/your-repo.git
+    git clone https://github.com/AlefRP/dbf_to_sqlite.git
     ```
 
 2. **Install Dependencies** :package:
