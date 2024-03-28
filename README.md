@@ -43,4 +43,4 @@ python main.py
 
 ## License
 
-This project is licensed under the MIT license.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) no repositório para mais detalhes.
