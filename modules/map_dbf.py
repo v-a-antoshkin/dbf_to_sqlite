@@ -4,7 +4,7 @@ import os
 class MapDBF:
     """
     A class for mapping and listing .dbf files within a specified directory.
-    
+
     Attributes:
         dbf_directory (str): The directory to search for .dbf files.
     """
@@ -25,5 +25,9 @@ class MapDBF:
         Returns:
             list: A list of .dbf filenames found in the specified directory.
         """
-        files = [file for file in os.listdir(self.dbf_directory) if file.lower().endswith('.dbf')]
+        files = [
+            file
+            for file in os.listdir(self.dbf_directory)
+            if file.lower().endswith(".dbf")
+        ]
         return files

@@ -5,4 +5,4 @@
 dbf_directory = "/path/to/your/dbf/files"
 
 # Example path to your output SQLite database file
-database_path = '/path/to/your/output/database.db'
+database_path = "/path/to/your/output/database.db"

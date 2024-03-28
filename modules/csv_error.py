@@ -5,7 +5,7 @@ import sqlite3
 class CSVError:
     """
     A class to manage and log errors to a SQLite database as a CSV format table.
-    
+
     Attributes:
         errors (list): A list of error dictionaries to log.
         database_path (str): The path to the SQLite database file where the errors will be logged.
@@ -29,6 +29,8 @@ class CSVError:
         """
         errors_df = pd.DataFrame(self.errors)
 
-        table_name = 'log_errors_DBF_SQLite'
+        table_name = "log_errors_DBF_SQLite"
         connection = sqlite3.connect(self.database_path)
-        errors_df.to_sql(name=table_name, con=connection, if_exists='append', index=False)
+        errors_df.to_sql(
+            name=table_name, con=connection, if_exists="append", index=False
+        )
