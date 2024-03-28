@@ -13,7 +13,7 @@ This Python-based tool automates the process of converting data from DBF (DataBa
 Before you begin, ensure you have the following requirements installed on your system:
 
 - Python 3.6 or newer
-- Required Python libraries: `pandas`, `sqlite3`, and `tqdm`
+- Required Python libraries: `pandas`, `sqlite3`, 'dbfread' and `tqdm`
 
 ## Installation :zap:
 
