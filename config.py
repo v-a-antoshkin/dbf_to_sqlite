@@ -8,3 +8,5 @@ dbf_directory = "A:\\GitHub\\dbf_to_sqlite\\DB"
 # Example path to your output SQLite database file
 database_path = "A:\\GitHub\\dbf_to_sqlite\\DB\\database.db"
 #database_path = "/path/to/your/output/database.db"
+
+# Second Update
